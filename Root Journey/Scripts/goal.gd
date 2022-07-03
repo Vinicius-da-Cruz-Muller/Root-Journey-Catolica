@@ -19,7 +19,6 @@ func _set_animation():
 	
 	if Global.goal == true:
 		anim = "done"
-		print ("YES")
 	
 	if $anim.assigned_animation != anim:
 		$anim.play(anim)

@@ -5,6 +5,7 @@
 [ext_resource path="res://Scripts/goal.gd" type="Script" id=3]
 
 [sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 1, 10 )
 
 [sub_resource type="Animation" id=2]
 length = 0.001
@@ -100,7 +101,7 @@ tracks/2/keys = {
 "values": [ 0, 0, 1, 2, 3, 4, 5, 6, 7, 8 ]
 }
 
-[node name="Goal" type="Area2D"]
+[node name="GoalTutorial" type="Area2D"]
 collision_layer = 16
 script = ExtResource( 3 )
 
@@ -110,7 +111,7 @@ texture = ExtResource( 1 )
 hframes = 10
 
 [node name="collision" type="CollisionShape2D" parent="."]
-position = Vector2( -1, -31 )
+position = Vector2( -8, -31 )
 scale = Vector2( 3, 3 )
 shape = SubResource( 1 )
 

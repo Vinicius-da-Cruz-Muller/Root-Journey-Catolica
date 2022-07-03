@@ -1,4 +1,4 @@
-[gd_scene load_steps=55 format=2]
+[gd_scene load_steps=57 format=2]
 
 [ext_resource path="res://Scenes/player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Assets/Cenário 2/Terrain (16x16).png" type="Texture" id=2]
@@ -8,7 +8,7 @@
 [ext_resource path="res://Assets/Cenário 2/4 - Cloud_cover_2.png" type="Texture" id=6]
 [ext_resource path="res://Assets/Cenário 2/2 - Hills.png" type="Texture" id=7]
 [ext_resource path="res://Assets/Cenário 2/3 - Cloud_cover_1.png" type="Texture" id=8]
-[ext_resource path="res://Scripts/fallzone.gd" type="Script" id=9]
+[ext_resource path="res://Prefabs/fallzone.tscn" type="PackedScene" id=9]
 [ext_resource path="res://Scenes/Mushroom.tscn" type="PackedScene" id=10]
 [ext_resource path="res://Scripts/Reset.gd" type="Script" id=11]
 [ext_resource path="res://Prefabs/HUD.tscn" type="PackedScene" id=12]
@@ -29,8 +29,11 @@
 [ext_resource path="res://Items/maca.tscn" type="PackedScene" id=27]
 [ext_resource path="res://Items/bananana.tscn" type="PackedScene" id=28]
 [ext_resource path="res://Scenes/Goal.tscn" type="PackedScene" id=29]
-[ext_resource path="res://Scenes/Purple.tscn" type="PackedScene" id=30]
-[ext_resource path="res://Scripts/Purple.gd" type="Script" id=31]
+[ext_resource path="res://Scenes/Bee.tscn" type="PackedScene" id=30]
+[ext_resource path="res://Scenes/Bee2.tscn" type="PackedScene" id=31]
+[ext_resource path="res://Scenes/Bee3.tscn" type="PackedScene" id=32]
+[ext_resource path="res://Scenes/Bee4.tscn" type="PackedScene" id=33]
+[ext_resource path="res://Scenes/Atirador.tscn" type="PackedScene" id=34]
 
 [sub_resource type="ConvexPolygonShape2D" id=6]
 points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
@@ -860,9 +863,6 @@ points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
 } ]
 43/z_index = 0
 
-[sub_resource type="RectangleShape2D" id=19]
-extents = Vector2( 1213, 10 )
-
 [node name="PilotLevel" type="Node2D"]
 script = ExtResource( 11 )
 
@@ -877,8 +877,8 @@ tile_data = PoolIntArray( -458756, 20, 0, -458755, 21, 0, -458754, 21, 0, -45875
 [node name="HUD" parent="." instance=ExtResource( 12 )]
 
 [node name="player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 69, 206 )
-collision_mask = 95
+position = Vector2( 34, 211 )
+collision_mask = 127
 
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
@@ -887,8 +887,8 @@ motion_scale = Vector2( 0.8, 1 )
 motion_mirroring = Vector2( 576, 0 )
 
 [node name="Sprite" type="Sprite" parent="ParallaxBackground/ParallaxLayer5"]
-position = Vector2( 232, 67 )
-scale = Vector2( 2, 2 )
+position = Vector2( 232, 87 )
+scale = Vector2( 2, 2.1875 )
 texture = ExtResource( 5 )
 
 [node name="ParallaxLayer4" type="ParallaxLayer" parent="ParallaxBackground"]
@@ -927,20 +927,10 @@ position = Vector2( 176, 96 )
 scale = Vector2( 1.5, 1.5 )
 texture = ExtResource( 4 )
 
-[node name="fallzone" type="Area2D" parent="."]
-visible = false
-position = Vector2( -144, 256 )
-script = ExtResource( 9 )
-__meta__ = {
-"_edit_group_": true
-}
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="fallzone"]
-position = Vector2( 1203, 0 )
-shape = SubResource( 19 )
+[node name="fallzone" parent="." instance=ExtResource( 9 )]
 
 [node name="maca" parent="." instance=ExtResource( 27 )]
-position = Vector2( 706, 207 )
+position = Vector2( 715, 207 )
 collision_mask = 1
 
 [node name="maca2" parent="." instance=ExtResource( 27 )]
@@ -948,19 +938,15 @@ position = Vector2( 944, 212 )
 collision_mask = 1
 
 [node name="maca3" parent="." instance=ExtResource( 27 )]
-position = Vector2( 1236, 167 )
+position = Vector2( 1233, 167 )
 collision_mask = 1
 
 [node name="maca4" parent="." instance=ExtResource( 27 )]
-position = Vector2( 1217, 167 )
-collision_mask = 1
-
-[node name="maca5" parent="." instance=ExtResource( 27 )]
-position = Vector2( 1225, 104 )
+position = Vector2( 1208, 167 )
 collision_mask = 1
 
 [node name="maca6" parent="." instance=ExtResource( 27 )]
-position = Vector2( 1212, 104 )
+position = Vector2( 1222, 104 )
 collision_mask = 1
 
 [node name="maca7" parent="." instance=ExtResource( 27 )]
@@ -988,11 +974,11 @@ position = Vector2( 1639, 197 )
 collision_mask = 1
 
 [node name="maca13" parent="." instance=ExtResource( 27 )]
-position = Vector2( 1664, 197 )
+position = Vector2( 1681, 197 )
 collision_mask = 1
 
 [node name="maca14" parent="." instance=ExtResource( 27 )]
-position = Vector2( 1690, 196 )
+position = Vector2( 1867, 213 )
 collision_mask = 1
 
 [node name="bananana" parent="." instance=ExtResource( 28 )]
@@ -1004,6 +990,9 @@ position = Vector2( 1560, 197 )
 [node name="bananana4" parent="." instance=ExtResource( 28 )]
 position = Vector2( 1663, 98 )
 
+[node name="bananana5" parent="." instance=ExtResource( 28 )]
+position = Vector2( 687, 206 )
+
 [node name="Mushroom" parent="." instance=ExtResource( 10 )]
 position = Vector2( 1052, 204 )
 
@@ -1013,12 +1002,23 @@ position = Vector2( 1408, 208 )
 [node name="Mushroom3" parent="." instance=ExtResource( 10 )]
 position = Vector2( 1104, 208 )
 
-[node name="Purple" parent="." instance=ExtResource( 30 )]
-position = Vector2( 609, 205 )
-script = ExtResource( 31 )
-
 [node name="Goal" parent="." instance=ExtResource( 29 )]
 position = Vector2( 1906, 209 )
+
+[node name="Bee" parent="." instance=ExtResource( 30 )]
+position = Vector2( 95, 203 )
+
+[node name="Bee2" parent="." instance=ExtResource( 31 )]
+position = Vector2( 583, 139 )
+
+[node name="Bee3" parent="." instance=ExtResource( 32 )]
+position = Vector2( 863, 149 )
+
+[node name="Bee4" parent="." instance=ExtResource( 33 )]
+position = Vector2( 1290, 131 )
+
+[node name="atirador" parent="." instance=ExtResource( 34 )]
+position = Vector2( 347, 203 )
 
 [connection signal="body_entered" from="fallzone" to="player" method="_on_fallzone_body_entered"]
 

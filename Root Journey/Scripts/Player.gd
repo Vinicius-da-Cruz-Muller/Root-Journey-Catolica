@@ -15,6 +15,7 @@ var is_grounded
 onready var raycasts = $raycasts
 
 func _ready():
+	Global.set("player", self)
 	game = get_tree().current_scene
 	
 
@@ -88,6 +89,18 @@ func _on_hurtbox_body_entered(body: Node)-> void:
 		if health < 1:
 			queue_free()
 			get_tree().reload_current_scene()
-			
-#func hit_goal():
+
+
+func _on_hurtbox_area_entered(area):
+	hurt = true
+	health -= 1
+	game.count_life()
+	knockback()
+	#get_node("hitbox/collision").set_deferred("disabled", true)
+	yield(get_tree().create_timer(0.5), "timeout")
+	#get_node("hitbox/collision").set_deferred("disabled", false)
+	hurt = false
 	
+	if health < 1:
+		queue_free()
+		get_tree().reload_current_scene()

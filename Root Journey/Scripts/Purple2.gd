@@ -51,3 +51,4 @@ func _on_hitbox_body_entered(body: Node)-> void:
 	#if health == 0:
 		#queue_free()
 		#get_node("hitbox/collision").set_deferred("disabled", true)
+

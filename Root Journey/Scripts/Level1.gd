@@ -7,8 +7,8 @@ var life = 5
 func _ready():
 	Global.maca = 0
 	Global.banana = 0
-	$HUD/Holder/life.animation = str(life)
+	$HUDL1/Holder/life.animation = str(life)
 	
 func count_life():
 	life -= 1
-	$HUD/Holder/life.animation = str(life)
+	$HUDL1/Holder/life.animation = str(life)
