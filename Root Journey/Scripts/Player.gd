@@ -17,6 +17,7 @@ onready var raycasts = $raycasts
 func _ready():
 	Global.set("player", self)
 	game = get_tree().current_scene
+	health +=1
 	
 
 func _physics_process(delta: float) -> void:
@@ -98,7 +99,7 @@ func _on_hurtbox_area_entered(area):
 	knockback()
 	#get_node("hitbox/collision").set_deferred("disabled", true)
 	yield(get_tree().create_timer(0.5), "timeout")
-	#get_node("hitbox/collision").set_deferred("disabled", false)
+ #get_node("hitbox/collision").set_deferred("disabled", false)
 	hurt = false
 	
 	if health < 1:

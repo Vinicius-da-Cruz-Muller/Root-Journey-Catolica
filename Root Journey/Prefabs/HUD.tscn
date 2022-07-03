@@ -40,32 +40,32 @@ font_data = ExtResource( 6 )
 
 [sub_resource type="SpriteFrames" id=6]
 animations = [ {
-"frames": [ ExtResource( 9 ) ],
-"loop": true,
-"name": "5",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 7 ) ],
-"loop": true,
-"name": "0",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 12 ) ],
-"loop": true,
-"name": "1",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 11 ) ],
-"loop": true,
-"name": "4",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 8 ) ],
 "loop": true,
 "name": "3",
 "speed": 5.0
 }, {
+"frames": [ ExtResource( 12 ) ],
+"loop": true,
+"name": "0",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 9 ) ],
+"loop": true,
+"name": "4",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 7 ) ],
+"loop": true,
+"name": "-1",
+"speed": 5.0
+}, {
 "frames": [ ExtResource( 10 ) ],
+"loop": true,
+"name": "1",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 8 ) ],
 "loop": true,
 "name": "2",
 "speed": 5.0
@@ -147,7 +147,7 @@ align = 1
 [node name="life" type="AnimatedSprite" parent="Holder"]
 position = Vector2( 428.571, 20 )
 frames = SubResource( 6 )
-animation = "5"
+animation = "0"
 
 [node name="Level" type="Label" parent="Holder"]
 margin_left = 1.42856
