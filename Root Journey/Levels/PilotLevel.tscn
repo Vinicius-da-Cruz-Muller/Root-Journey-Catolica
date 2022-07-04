@@ -1,4 +1,4 @@
-[gd_scene load_steps=58 format=2]
+[gd_scene load_steps=57 format=2]
 
 [ext_resource path="res://Scenes/player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Assets/Cenário 2/Terrain (16x16).png" type="Texture" id=2]
@@ -34,7 +34,6 @@
 [ext_resource path="res://Scenes/Bee3.tscn" type="PackedScene" id=32]
 [ext_resource path="res://Scenes/Bee4.tscn" type="PackedScene" id=33]
 [ext_resource path="res://Scenes/Atirador.tscn" type="PackedScene" id=34]
-[ext_resource path="res://Scenes/Caracol.tscn" type="PackedScene" id=35]
 
 [sub_resource type="ConvexPolygonShape2D" id=6]
 points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
@@ -1020,9 +1019,6 @@ position = Vector2( 1290, 131 )
 
 [node name="atirador" parent="." instance=ExtResource( 34 )]
 position = Vector2( 240, 203 )
-
-[node name="Caracol" parent="." instance=ExtResource( 35 )]
-position = Vector2( 2003, 210 )
 
 [connection signal="body_entered" from="fallzone" to="player" method="_on_fallzone_body_entered"]
 

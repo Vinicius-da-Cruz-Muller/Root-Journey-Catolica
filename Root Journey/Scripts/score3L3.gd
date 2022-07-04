@@ -8,24 +8,21 @@ var  tempo = 0
 
 #var prim = Global.maca
 #var seg = Global.banana
-#func _ready():
+func _ready():
 
-	#randnum = int(rand_range(minimo, maximo))
+	randnum = int(rand_range(minimo, maximo))
 	
 func _process(delta: float) -> void:
 	
-	#tempo += delta
+	tempo += delta
 
-	text = String(25)
+	text = String(randnum)
 	
-	if Global.maca + Global.banana == 25: #randnum
+	if Global.maca + Global.banana == randnum:
 		#print("Soma perfeita")
 		Global.goal = true
 	else:
 		Global.goal = false
-	#if tempo >= tempomax:
-		#randnum = int(rand_range(minimo, maximo))
-		#tempo = 0
-	
-	
-	
+	if tempo >= tempomax:
+		randnum = int(rand_range(minimo, maximo))
+		tempo = 0

@@ -2,7 +2,7 @@ extends KinematicBody2D
 
 var facing_left = true
 var hitted = false
-var health = 3
+var health = 5
 
 onready var bullet_instance = preload("res://Scenes/Seed.tscn")
 onready var player = Global.get("player")

@@ -1,17 +1,17 @@
 [gd_scene load_steps=19 format=2]
 
 [ext_resource path="res://Assets/PressStart2P.ttf" type="DynamicFontData" id=1]
-[ext_resource path="res://Scripts/score1.gd" type="Script" id=2]
-[ext_resource path="res://Scripts/score2.gd" type="Script" id=3]
-[ext_resource path="res://Buttons/Petala3.png" type="Texture" id=4]
+[ext_resource path="res://Scripts/score3L2.gd" type="Script" id=2]
+[ext_resource path="res://Scripts/score1.gd" type="Script" id=3]
+[ext_resource path="res://Scripts/score2.gd" type="Script" id=4]
 [ext_resource path="res://Buttons/Petala0.png" type="Texture" id=5]
 [ext_resource path="res://Buttons/Banana.png" type="Texture" id=6]
-[ext_resource path="res://Buttons/appleapple.png" type="Texture" id=7]
-[ext_resource path="res://Buttons/Petala5.png" type="Texture" id=8]
-[ext_resource path="res://Buttons/Petala2.png" type="Texture" id=9]
-[ext_resource path="res://Buttons/Petala1.png" type="Texture" id=10]
+[ext_resource path="res://Buttons/Petala3.png" type="Texture" id=7]
+[ext_resource path="res://Buttons/appleapple.png" type="Texture" id=8]
+[ext_resource path="res://Buttons/Petala5.png" type="Texture" id=9]
+[ext_resource path="res://Buttons/Petala2.png" type="Texture" id=10]
 [ext_resource path="res://Buttons/Petala4.png" type="Texture" id=11]
-[ext_resource path="res://Scripts/score3L1.gd" type="Script" id=12]
+[ext_resource path="res://Buttons/Petala1.png" type="Texture" id=12]
 
 [sub_resource type="DynamicFont" id=1]
 outline_size = 1
@@ -40,9 +40,14 @@ font_data = ExtResource( 1 )
 
 [sub_resource type="SpriteFrames" id=6]
 animations = [ {
-"frames": [ ExtResource( 4 ) ],
+"frames": [ ExtResource( 7 ) ],
 "loop": true,
 "name": "3",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 12 ) ],
+"loop": true,
+"name": "1",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 11 ) ],
@@ -52,11 +57,6 @@ animations = [ {
 }, {
 "frames": [ ExtResource( 10 ) ],
 "loop": true,
-"name": "1",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 9 ) ],
-"loop": true,
 "name": "2",
 "speed": 5.0
 }, {
@@ -65,13 +65,13 @@ animations = [ {
 "name": "0",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 8 ) ],
+"frames": [ ExtResource( 9 ) ],
 "loop": true,
 "name": "5",
 "speed": 5.0
 } ]
 
-[node name="HUDL1" type="CanvasLayer"]
+[node name="HUDL2" type="CanvasLayer"]
 
 [node name="Holder" type="Control" parent="."]
 margin_left = 4.0
@@ -85,7 +85,7 @@ margin_left = 170.429
 margin_top = 1.42857
 margin_right = 192.429
 margin_bottom = 24.4286
-texture = ExtResource( 7 )
+texture = ExtResource( 8 )
 expand = true
 
 [node name="score1" type="Label" parent="Holder"]
@@ -96,7 +96,7 @@ margin_bottom = 42.4286
 custom_fonts/font = SubResource( 1 )
 text = "00"
 align = 1
-script = ExtResource( 2 )
+script = ExtResource( 3 )
 
 [node name="iconbanana" type="TextureRect" parent="Holder"]
 margin_left = 233.429
@@ -114,9 +114,9 @@ margin_bottom = 42.4286
 custom_fonts/font = SubResource( 2 )
 text = "00"
 align = 1
-script = ExtResource( 3 )
+script = ExtResource( 4 )
 
-[node name="score3L1" type="Label" parent="Holder"]
+[node name="score3L2" type="Label" parent="Holder"]
 margin_left = 282.429
 margin_top = 8.42857
 margin_right = 322.429
@@ -124,7 +124,7 @@ margin_bottom = 24.4286
 custom_fonts/font = SubResource( 3 )
 text = "00"
 align = 2
-script = ExtResource( 12 )
+script = ExtResource( 2 )
 
 [node name="sinal" type="Label" parent="Holder"]
 margin_left = 190.429
@@ -155,5 +155,5 @@ margin_top = 4.28571
 margin_right = 41.4286
 margin_bottom = 20.2857
 custom_fonts/font = SubResource( 4 )
-text = "Fase 1"
+text = "Fase 2"
 align = 1
