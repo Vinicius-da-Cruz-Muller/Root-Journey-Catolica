@@ -798,11 +798,11 @@ position = Vector2( 2174, 127 )
 [node name="Mushroom2" parent="." instance=ExtResource( 27 )]
 position = Vector2( 2348, 127 )
 
+[node name="Purple8" parent="." instance=ExtResource( 30 )]
+position = Vector2( 2416, 128 )
+
 [node name="Mushroom3" parent="." instance=ExtResource( 27 )]
 position = Vector2( 2514, 127 )
-
-[node name="Purple" parent="Mushroom3" instance=ExtResource( 30 )]
-position = Vector2( -98, 1 )
 
 [node name="Caracol4" parent="." instance=ExtResource( 29 )]
 position = Vector2( 2847, 64 )
@@ -815,3 +815,6 @@ position = Vector2( 3406, 125 )
 
 [node name="Purple6" parent="." instance=ExtResource( 30 )]
 position = Vector2( 3177, 126 )
+
+[node name="Purple7" parent="." instance=ExtResource( 30 )]
+position = Vector2( 2943, 126 )

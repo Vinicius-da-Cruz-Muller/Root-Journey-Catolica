@@ -45,9 +45,9 @@ animations = [ {
 "name": "3",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 6 ) ],
+"frames": [ ExtResource( 7 ) ],
 "loop": true,
-"name": "1",
+"name": "0",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 5 ) ],
@@ -60,9 +60,9 @@ animations = [ {
 "name": "2",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 7 ) ],
+"frames": [ ExtResource( 6 ) ],
 "loop": true,
-"name": "0",
+"name": "1",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 11 ) ],
@@ -132,7 +132,7 @@ margin_top = 7.42857
 margin_right = 230.429
 margin_bottom = 23.4286
 custom_fonts/font = SubResource( 4 )
-text = "+"
+text = "*"
 align = 1
 
 [node name="sinal2" type="Label" parent="Holder"]
