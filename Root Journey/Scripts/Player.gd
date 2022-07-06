@@ -88,8 +88,7 @@ func _on_hurtbox_body_entered(body: Node)-> void:
 		hurt = false
 		
 		if health < 1:
-			queue_free()
-			get_tree().reload_current_scene()
+			game_over()
 
 
 func _on_hurtbox_area_entered(area):
@@ -103,5 +102,9 @@ func _on_hurtbox_area_entered(area):
 	hurt = false
 	
 	if health < 1:
-		queue_free()
-		get_tree().reload_current_scene()
+		game_over()
+		
+func game_over() -> void:
+	queue_free()
+	get_tree().change_scene("res://Prefabs/GameOver.tscn")
+	

@@ -5,7 +5,7 @@ var hitted = false
 var health = 5
 
 onready var bullet_instance = preload("res://Scenes/Seed.tscn")
-onready var player = Global.get("player")
+onready var player = Global.get("playerDir")
 
 func _physics_process(delta: float) -> void:
 	_set_animation()

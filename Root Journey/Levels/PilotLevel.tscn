@@ -1,6 +1,5 @@
 [gd_scene load_steps=56 format=2]
 
-[ext_resource path="res://Scenes/player.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Assets/Cenário 2/Terrain (16x16).png" type="Texture" id=2]
 [ext_resource path="res://Assets/Cenário 2/Terrain (16 x 16).png" type="Texture" id=3]
 [ext_resource path="res://Assets/Cenário 2/1 - Foreground_scenery.png" type="Texture" id=4]
@@ -33,6 +32,7 @@
 [ext_resource path="res://Scenes/Bee2.tscn" type="PackedScene" id=31]
 [ext_resource path="res://Scenes/Bee3.tscn" type="PackedScene" id=32]
 [ext_resource path="res://Scenes/Bee4.tscn" type="PackedScene" id=33]
+[ext_resource path="res://Scripts/Characterspawner.gd" type="Script" id=34]
 
 [sub_resource type="ConvexPolygonShape2D" id=6]
 points = PoolVector2Array( 0, 0, 16, 0, 16, 16, 0, 16 )
@@ -875,10 +875,6 @@ tile_data = PoolIntArray( -458756, 20, 0, -458755, 21, 0, -458754, 21, 0, -45875
 
 [node name="HUD" parent="." instance=ExtResource( 12 )]
 
-[node name="player" parent="." instance=ExtResource( 1 )]
-position = Vector2( 39, 179 )
-collision_mask = 127
-
 [node name="ParallaxBackground" type="ParallaxBackground" parent="."]
 
 [node name="ParallaxLayer5" type="ParallaxLayer" parent="ParallaxBackground"]
@@ -1016,6 +1012,10 @@ position = Vector2( 863, 149 )
 [node name="Bee4" parent="." instance=ExtResource( 33 )]
 position = Vector2( 1290, 131 )
 
-[connection signal="body_entered" from="fallzone" to="player" method="_on_fallzone_body_entered"]
+[node name="Character" type="Node2D" parent="."]
+script = ExtResource( 34 )
+
+[node name="Spawner" type="Position2D" parent="Character"]
+position = Vector2( 49, 136 )
 
 [editable path="HUD"]
