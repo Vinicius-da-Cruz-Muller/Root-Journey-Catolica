@@ -1,4 +1,4 @@
-[gd_scene load_steps=19 format=2]
+[gd_scene load_steps=21 format=2]
 
 [ext_resource path="res://Buttons/appleapple.png" type="Texture" id=1]
 [ext_resource path="res://Buttons/Banana.png" type="Texture" id=2]
@@ -12,6 +12,7 @@
 [ext_resource path="res://Buttons/Petala2.png" type="Texture" id=10]
 [ext_resource path="res://Buttons/Petala4.png" type="Texture" id=11]
 [ext_resource path="res://Buttons/Petala1.png" type="Texture" id=12]
+[ext_resource path="res://Scripts/ResetPilot.gd" type="Script" id=13]
 
 [sub_resource type="DynamicFont" id=1]
 outline_size = 1
@@ -40,36 +41,40 @@ font_data = ExtResource( 6 )
 
 [sub_resource type="SpriteFrames" id=6]
 animations = [ {
-"frames": [ ExtResource( 11 ) ],
-"loop": true,
-"name": "3",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 12 ) ],
+"frames": [ ExtResource( 7 ) ],
 "loop": true,
 "name": "0",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 9 ) ],
-"loop": true,
-"name": "4",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 8 ) ],
-"loop": true,
-"name": "2",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 10 ) ],
+"frames": [ ExtResource( 12 ) ],
 "loop": true,
 "name": "1",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 7 ) ],
+"frames": [ ExtResource( 11 ) ],
 "loop": true,
-"name": "-1",
+"name": "4",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 10 ) ],
+"loop": true,
+"name": "2",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 9 ) ],
+"loop": true,
+"name": "5",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 8 ) ],
+"loop": true,
+"name": "3",
 "speed": 5.0
 } ]
+
+[sub_resource type="DynamicFont" id=7]
+size = 8
+font_data = ExtResource( 6 )
 
 [node name="HUD" type="CanvasLayer"]
 
@@ -147,7 +152,7 @@ align = 1
 [node name="life" type="AnimatedSprite" parent="Holder"]
 position = Vector2( 428.571, 20 )
 frames = SubResource( 6 )
-animation = "0"
+animation = "4"
 
 [node name="Level" type="Label" parent="Holder"]
 margin_left = 1.42856
@@ -157,3 +162,19 @@ margin_bottom = 20.2857
 custom_fonts/font = SubResource( 4 )
 text = "Tutorial"
 align = 1
+
+[node name="Control" type="Node2D" parent="."]
+script = ExtResource( 13 )
+
+[node name="Tentar" type="Button" parent="Control"]
+margin_left = 192.0
+margin_top = 169.0
+margin_right = 316.0
+margin_bottom = 187.0
+custom_colors/font_color_focus = Color( 0.988235, 0.407843, 0.576471, 1 )
+custom_colors/font_color_hover = Color( 0.988235, 0.407843, 0.576471, 1 )
+custom_colors/font_color_pressed = Color( 0.647059, 0.937255, 0.67451, 1 )
+custom_fonts/font = SubResource( 7 )
+text = "Reiniciar Fase"
+
+[connection signal="pressed" from="Control/Tentar" to="Control" method="_on_Tentar_pressed"]

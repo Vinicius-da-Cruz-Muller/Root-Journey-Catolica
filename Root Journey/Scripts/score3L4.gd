@@ -16,9 +16,9 @@ func _process(delta: float) -> void:
 	
 	tempo += delta
 
-	text = String(144)
+	text = String(27)
 	
-	if Global.maca * Global.banana == 144:
+	if Global.maca + Global.banana == 27:
 		#print("Soma perfeita")
 		Global.goal = true
 	#else:

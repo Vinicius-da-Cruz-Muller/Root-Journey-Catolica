@@ -23,6 +23,7 @@ func _process(delta: float) -> void:
 		Global.goal = true
 	else:
 		Global.goal = false
+	
 	#if tempo >= tempomax:
 		#randnum = int(rand_range(minimo, maximo))
 		#tempo = 0

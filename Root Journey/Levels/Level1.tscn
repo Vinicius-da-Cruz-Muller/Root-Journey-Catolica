@@ -1,9 +1,8 @@
-[gd_scene load_steps=58 format=2]
+[gd_scene load_steps=57 format=2]
 
 [ext_resource path="res://Scenes/GoalLevel1.tscn" type="PackedScene" id=1]
 [ext_resource path="res://Items/maca.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Scripts/Characterspawner.gd" type="Script" id=3]
-[ext_resource path="res://Scenes/Atirador.tscn" type="PackedScene" id=4]
 [ext_resource path="res://Scenes/Mushroom.tscn" type="PackedScene" id=5]
 [ext_resource path="res://Assets/Cenário 2/Terrain (16x16).png" type="Texture" id=6]
 [ext_resource path="res://Assets/Cenário 2/Terrain (16 x 16).png" type="Texture" id=7]
@@ -1059,9 +1058,6 @@ position = Vector2( 3409, 135 )
 [node name="bananana10" parent="." instance=ExtResource( 30 )]
 position = Vector2( 3526, 134 )
 
-[node name="atirador" parent="." instance=ExtResource( 4 )]
-position = Vector2( 291, 221 )
-
 [node name="Purple" parent="." instance=ExtResource( 29 )]
 position = Vector2( 559, 223 )
 
@@ -1073,9 +1069,6 @@ position = Vector2( 1154, 176 )
 
 [node name="Purple5" parent="." instance=ExtResource( 29 )]
 position = Vector2( 1543, 175 )
-
-[node name="atirador3" parent="." instance=ExtResource( 4 )]
-position = Vector2( 1427, 108 )
 
 [node name="Mushroom" parent="." instance=ExtResource( 5 )]
 position = Vector2( 1374, 65 )
@@ -1094,12 +1087,6 @@ position = Vector2( 1997, 217 )
 
 [node name="Mushroom5" parent="." instance=ExtResource( 5 )]
 position = Vector2( 2543, 222 )
-
-[node name="atirador4" parent="." instance=ExtResource( 4 )]
-position = Vector2( 3248, 13 )
-
-[node name="atirador6" parent="." instance=ExtResource( 4 )]
-position = Vector2( 3193, 189 )
 
 [node name="Purple8" parent="." instance=ExtResource( 29 )]
 position = Vector2( 2793, 192 )
@@ -1135,7 +1122,7 @@ position = Vector2( 581, 228 )
 position = Vector2( 787, 229 )
 
 [node name="maca7" parent="." instance=ExtResource( 2 )]
-position = Vector2( 1196, 101 )
+position = Vector2( 1196, 114 )
 
 [node name="maca11" parent="." instance=ExtResource( 2 )]
 position = Vector2( 1829, 230 )

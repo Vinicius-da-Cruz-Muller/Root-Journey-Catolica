@@ -11,7 +11,7 @@ config_version=4
 [application]
 
 config/name="Root Journey"
-run/main_scene="res://Levels/PilotLevel.tscn"
+run/main_scene="res://Prefabs/TelaInicial.tscn"
 config/icon="res://icon.png"
 
 [autoload]

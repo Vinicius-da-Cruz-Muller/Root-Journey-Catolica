@@ -30,10 +30,10 @@ func shoot():
 func _set_animation():
 	var anim = "idle"
 	
-	if $playerDetector.overlaps_body(player):
-		anim = "attack"
-	else:
-		anim = "idle"
+	#if $playerDetector.overlaps_body(player):
+		#anim = "attack"
+	#else:
+		#anim = "idle"
 		
 	if hitted == true:
 		anim = "hit"

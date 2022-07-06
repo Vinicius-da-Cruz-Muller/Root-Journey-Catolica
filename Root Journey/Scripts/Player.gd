@@ -17,7 +17,7 @@ onready var raycasts = $raycasts
 func _ready():
 	Global.set("player", self)
 	game = get_tree().current_scene
-	health +=1
+	#health +=1
 	
 
 func _physics_process(delta: float) -> void:

@@ -1,4 +1,4 @@
-extends Node
+extends Node 
 
 var goal = false #tentar depois dentro de score 3
 

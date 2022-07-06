@@ -1,6 +1,7 @@
 [gd_scene load_steps=59 format=2]
 
 [ext_resource path="res://Prefabs/HUDL3.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Scripts/Characterspawner.gd" type="Script" id=2]
 [ext_resource path="res://Scripts/Level3.gd" type="Script" id=3]
 [ext_resource path="res://Assets/Cenário 2/Terrain (16x16).png" type="Texture" id=4]
 [ext_resource path="res://Assets/Cenário 2/Tronco/Tronco4.png" type="Texture" id=5]
@@ -28,7 +29,6 @@
 [ext_resource path="res://Assets/Cenário 2/Tilesets/Autumn_Terrain (16 x 16).png" type="Texture" id=27]
 [ext_resource path="res://Scenes/Caracol.tscn" type="PackedScene" id=28]
 [ext_resource path="res://Scenes/Mushroom.tscn" type="PackedScene" id=29]
-[ext_resource path="res://Scenes/Atirador.tscn" type="PackedScene" id=30]
 [ext_resource path="res://Scenes/Purple.tscn" type="PackedScene" id=31]
 [ext_resource path="res://Items/bananana.tscn" type="PackedScene" id=32]
 
@@ -1191,12 +1191,6 @@ position = Vector2( 329, 223 )
 [node name="Mushroom3" parent="." instance=ExtResource( 29 )]
 position = Vector2( 447, 223 )
 
-[node name="atirador" parent="." instance=ExtResource( 30 )]
-position = Vector2( 527, 172 )
-
-[node name="atirador2" parent="." instance=ExtResource( 30 )]
-position = Vector2( 737, 173 )
-
 [node name="Purple" parent="." instance=ExtResource( 31 )]
 position = Vector2( 827, 238 )
 
@@ -1329,9 +1323,6 @@ position = Vector2( 3131, -5 )
 [node name="Caracol16" parent="." instance=ExtResource( 28 )]
 position = Vector2( 3524, -2 )
 
-[node name="atirador3" parent="." instance=ExtResource( 30 )]
-position = Vector2( 1794, 141 )
-
 [node name="bananana" parent="." instance=ExtResource( 32 )]
 position = Vector2( 1112, 88 )
 
@@ -1385,3 +1376,9 @@ position = Vector2( 2232, -40 )
 
 [node name="bananana13" parent="." instance=ExtResource( 32 )]
 position = Vector2( 3240, -40 )
+
+[node name="Character" type="Node2D" parent="."]
+script = ExtResource( 2 )
+
+[node name="Spawner" type="Position2D" parent="Character"]
+position = Vector2( 36, 149 )

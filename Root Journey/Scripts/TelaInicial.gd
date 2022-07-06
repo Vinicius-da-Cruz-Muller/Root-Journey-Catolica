@@ -7,6 +7,7 @@ func _ready():
 
 func _on_startBtn_pressed():
 	get_tree().change_scene("res://Levels/PilotLevel.tscn")
+	
 
 
 func _on_options_pressed():
