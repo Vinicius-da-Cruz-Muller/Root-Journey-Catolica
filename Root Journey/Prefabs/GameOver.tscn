@@ -1,15 +1,15 @@
 [gd_scene load_steps=7 format=2]
 
-[ext_resource path="res://Assets/PressStart2P.ttf" type="DynamicFontData" id=1]
-[ext_resource path="res://Assets/Telas/b94eca356355f37.png" type="Texture" id=2]
+[ext_resource path="res://Assets/PressStart2P.ttf" type="FontFile" id=1]
+[ext_resource path="res://Assets/Telas/b94eca356355f37.png" type="Texture2D" id=2]
 [ext_resource path="res://Scripts/GameOver.gd" type="Script" id=3]
-[ext_resource path="res://Assets/Character/Hurt_(16_x_16).png" type="Texture" id=4]
+[ext_resource path="res://Assets/Character/Hurt_(16_x_16).png" type="Texture2D" id=4]
 
-[sub_resource type="DynamicFont" id=1]
+[sub_resource type="FontFile" id=1]
 size = 18
 font_data = ExtResource( 1 )
 
-[sub_resource type="DynamicFont" id=2]
+[sub_resource type="FontFile" id=2]
 size = 14
 font_data = ExtResource( 1 )
 
@@ -22,33 +22,33 @@ anchor_bottom = 1.0
 color = Color( 0.254902, 0.654902, 0.411765, 0.443137 )
 
 [node name="Label" type="Label" parent="."]
-margin_left = 24.0
-margin_top = 16.0
-margin_right = 244.0
-margin_bottom = 39.0
-custom_fonts/font = SubResource( 1 )
+offset_left = 24.0
+offset_top = 16.0
+offset_right = 244.0
+offset_bottom = 39.0
+theme_override_fonts/font = SubResource( 1 )
 text = "Fim de Jogo"
 
 [node name="Label2" type="Label" parent="."]
-margin_left = 56.0
-margin_top = 88.0
-margin_right = 272.0
-margin_bottom = 104.0
-custom_fonts/font = SubResource( 2 )
+offset_left = 56.0
+offset_top = 88.0
+offset_right = 272.0
+offset_bottom = 104.0
+theme_override_fonts/font = SubResource( 2 )
 text = "Tentar de Novo?"
 
 [node name="retrybutton" type="TextureButton" parent="."]
-margin_left = 144.0
-margin_top = 120.0
-margin_right = 192.0
-margin_bottom = 168.0
+offset_left = 144.0
+offset_top = 120.0
+offset_right = 192.0
+offset_bottom = 168.0
 
-[node name="button" type="Sprite" parent="."]
+[node name="button" type="Sprite2D" parent="."]
 position = Vector2( 168, 144 )
 scale = Vector2( 0.277778, 0.26 )
 texture = ExtResource( 2 )
 
-[node name="Hurt(16X16)" type="Sprite" parent="."]
+[node name="Hurt(16X16)" type="Sprite2D" parent="."]
 position = Vector2( 280, 32 )
 scale = Vector2( 3, 3 )
 texture = ExtResource( 4 )

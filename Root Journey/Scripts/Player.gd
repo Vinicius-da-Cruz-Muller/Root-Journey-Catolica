@@ -1,4 +1,4 @@
-extends KinematicBody2D
+extends CharacterBody2D
 
 var velocity = Vector2.ZERO
 var move_speed = 480
@@ -12,7 +12,7 @@ var knockback_dir = 1
 var knockback_int = 1400
 
 var is_grounded
-onready var raycasts = $raycasts
+@onready var raycasts = $raycasts
 
 func _ready():
 	Global.set("player", self)
@@ -27,7 +27,9 @@ func _physics_process(delta: float) -> void:
 	if ! hurt:
 		_get_input()
 	
-	velocity = move_and_slide(velocity)
+	set_velocity(velocity)
+	move_and_slide()
+	velocity = velocity
 	is_grounded = _check_is_grounded()
 	
 	_set_animation()
@@ -75,7 +77,9 @@ func knockback():
 		velocity.x = -knockback_dir * knockback_int
 	if $hurtbox/left.is_colliding():
 		velocity.x = knockback_dir * knockback_int
-	velocity = move_and_slide(velocity)
+	set_velocity(velocity)
+	move_and_slide()
+	velocity = velocity
 	
 func _on_hurtbox_body_entered(body: Node)-> void:
 		hurt = true
@@ -83,7 +87,7 @@ func _on_hurtbox_body_entered(body: Node)-> void:
 		game.count_life()
 		knockback()
 		#get_node("hitbox/collision").set_deferred("disabled", true)
-		yield(get_tree().create_timer(0.5), "timeout")
+		await get_tree().create_timer(0.5).timeout
 		#get_node("hitbox/collision").set_deferred("disabled", false)
 		hurt = false
 		
@@ -97,7 +101,7 @@ func _on_hurtbox_area_entered(area):
 	game.count_life()
 	knockback()
 	#get_node("hitbox/collision").set_deferred("disabled", true)
-	yield(get_tree().create_timer(0.5), "timeout")
+	await get_tree().create_timer(0.5).timeout
  #get_node("hitbox/collision").set_deferred("disabled", false)
 	hurt = false
 	
@@ -106,5 +110,5 @@ func _on_hurtbox_area_entered(area):
 		
 func game_over() -> void:
 	queue_free()
-	get_tree().change_scene("res://Prefabs/GameOver.tscn")
+	get_tree().change_scene_to_file("res://Prefabs/GameOver.tscn")
 	

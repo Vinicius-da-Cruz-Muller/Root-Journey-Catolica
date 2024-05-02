@@ -1,11 +1,11 @@
-extends KinematicBody2D
+extends CharacterBody2D
 
 var facing_left = true
 var hitted = false
 var health = 5
 
-onready var bullet_instance = preload("res://Scenes/Seed.tscn")
-onready var player = Global.get("playerDir")
+@onready var bullet_instance = preload("res://Scenes/Seed.tscn")
+@onready var player = Global.get("playerDir")
 
 func _physics_process(delta: float) -> void:
 	_set_animation()
@@ -53,7 +53,7 @@ func _on_hitbox_body_entered(body):
 	hitted = true
 	body.velocity.y = body.jump_force / 2
 	health -= 1
-	yield(get_tree().create_timer(0.2), "timeout")
+	await get_tree().create_timer(0.2).timeout
 	hitted = false 
 	
 	if health == 0:

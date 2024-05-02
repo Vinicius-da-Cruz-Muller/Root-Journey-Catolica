@@ -10,7 +10,7 @@ var  tempo = 0
 #var seg = Global.banana
 func _ready():
 
-	randnum = int(rand_range(minimo, maximo))
+	randnum = int(randf_range(minimo, maximo))
 	
 func _process(delta: float) -> void:
 	
@@ -24,5 +24,5 @@ func _process(delta: float) -> void:
 	else:
 		Global.goal = false
 	if tempo >= tempomax:
-		randnum = int(rand_range(minimo, maximo))
+		randnum = int(randf_range(minimo, maximo))
 		tempo = 0

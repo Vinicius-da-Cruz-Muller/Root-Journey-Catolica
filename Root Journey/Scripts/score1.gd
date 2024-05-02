@@ -1,6 +1,6 @@
 extends Label
 
 func _process(delta: float) -> void:
-	text = String(Global.maca)
+	#text = String(Global.maca)
 
 

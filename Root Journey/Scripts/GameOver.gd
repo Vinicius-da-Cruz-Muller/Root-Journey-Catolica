@@ -6,4 +6,4 @@ func _ready():
 
 
 func _on_retrybutton_pressed():
-	get_tree().change_scene("res://Levels/Level1.tscn")
+	get_tree().change_scene_to_file("res://Levels/Level1.tscn")

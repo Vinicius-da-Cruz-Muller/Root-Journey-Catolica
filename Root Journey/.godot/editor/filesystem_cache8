@@ -1,0 +1,246 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1695339334
+default_env.tres::Environment::-1::1695339311::0::1::::<><>::
+icon.png::CompressedTexture2D::7749898623310783573::1695339062::1695339336::1::::<><>::
+::res://Assets/::1695339062
+FONTLOG.txt::TextFile::-1::1695339062::0::1::::<><>::
+LICENSE.txt::TextFile::-1::1695339062::0::1::::<><>::
+PressStart2P.ttf::FontFile::7055566400130953821::1695339062::1695339336::1::::<><>::
+::res://Assets/Cenário 2/::1695339062
+1 - Foreground_scenery.png::CompressedTexture2D::727365366901664168::1695339062::1695339337::1::::<><>::
+1 - Leaf_top.png::CompressedTexture2D::7628840408218310576::1695339062::1695339337::1::::<><>::
+1 - Waters_version_1.png::CompressedTexture2D::2195653859527701451::1695339062::1695339337::1::::<><>::
+2 - Hills.png::CompressedTexture2D::4959463604784836919::1695339062::1695339337::1::::<><>::
+2 - Trees.png::CompressedTexture2D::2479719443514285172::1695339062::1695339337::1::::<><>::
+2 - Waters_version_2.png::CompressedTexture2D::5847181747084631254::1695339062::1695339337::1::::<><>::
+3 - Bottom_leaf_piles.png::CompressedTexture2D::7894770755585039935::1695339062::1695339337::1::::<><>::
+3 - Cloud_cover_1.png::CompressedTexture2D::8633263808479537454::1695339062::1695339337::1::::<><>::
+3 - Floating_clouds.png::CompressedTexture2D::5567445562343992209::1695339062::1695339337::1::::<><>::
+4 - Background_clouds.png::CompressedTexture2D::4864546323361427329::1695339062::1695339337::1::::<><>::
+4 - Cloud_cover_2.png::CompressedTexture2D::8679182092694995197::1695339062::1695339337::1::::<><>::
+4 - Tree_row_BG_1.png::CompressedTexture2D::8920797464057768693::1695339062::1695339337::1::::<><>::
+5 - Sky_color.png::CompressedTexture2D::2557472812911768110::1695339062::1695339337::1::::<><>::
+5 - Tree_row_BG_2.png::CompressedTexture2D::4243697234409973098::1695339062::1695339337::1::::<><>::
+6 - Distant_trees.png::CompressedTexture2D::6692807238866234989::1695339062::1695339337::1::::<><>::
+Terrain (16 x 16).png::CompressedTexture2D::4476365245567436289::1695339062::1695339337::1::::<><>::
+Terrain (16x16).png::CompressedTexture2D::6954004707941503662::1695339062::1695339337::1::::<><>::
+::res://Assets/Cenário 2/Tilesets/::1695339062
+Autumn_entities (16 x 16).png::CompressedTexture2D::2259575732821196390::1695339062::1695339337::1::::<><>::
+Autumn_Terrain (16 x 16).png::CompressedTexture2D::8234735338224086689::1695339062::1695339337::1::::<><>::
+Extra_plants (16 x 16).png::CompressedTexture2D::5194708700136372568::1695339062::1695339337::1::::<><>::
+Grassland_entities (16 x 16).png::CompressedTexture2D::1157476203620033819::1695339062::1695339337::1::::<><>::
+SpringExtra_plants (16 x 16).png::CompressedTexture2D::923042125254284759::1695339062::1695339337::1::::<><>::
+Spring_entities (16 x 16).png::CompressedTexture2D::930347870716422863::1695339062::1695339337::1::::<><>::
+Summer_entities (16 x 16).png::CompressedTexture2D::2537310503188208163::1695339062::1695339337::1::::<><>::
+Summer_Terrain (16 x 16).png::CompressedTexture2D::939039656741088360::1695339062::1695339337::1::::<><>::
+::res://Assets/Cenário 2/Tronco/::1695339062
+Galho1.1.png::CompressedTexture2D::5751572373853139150::1695339062::1695339337::1::::<><>::
+Galho1.2.png::CompressedTexture2D::9017481010857666386::1695339062::1695339337::1::::<><>::
+Galho1.png::CompressedTexture2D::1125147492078442730::1695339062::1695339337::1::::<><>::
+Galho2.1.png::CompressedTexture2D::1249354369531847602::1695339062::1695339337::1::::<><>::
+Galho2.2.png::CompressedTexture2D::4132454895986845148::1695339062::1695339337::1::::<><>::
+Galho2.png::CompressedTexture2D::8618813297655797711::1695339062::1695339337::1::::<><>::
+Galho3.png::CompressedTexture2D::5454258936648072367::1695339062::1695339337::1::::<><>::
+Tronco2.png::CompressedTexture2D::3872875731869292359::1695339062::1695339337::1::::<><>::
+Tronco3.png::CompressedTexture2D::4706318830651704310::1695339062::1695339337::1::::<><>::
+Tronco4.png::CompressedTexture2D::6972858860430769127::1695339062::1695339337::1::::<><>::
+Tronco5.png::CompressedTexture2D::808951784347430925::1695339062::1695339337::1::::<><>::
+Tronco6.png::CompressedTexture2D::6085109419885627521::1695339062::1695339337::1::::<><>::
+Tronco7.png::CompressedTexture2D::551835705108655928::1695339062::1695339337::1::::<><>::
+Tronco_1.png::CompressedTexture2D::3867808938519461632::1695339062::1695339337::1::::<><>::
+::res://Assets/Character/::1695339062
+AbelhaSprite.png::CompressedTexture2D::3042386695811617133::1695339062::1695339337::1::::<><>::
+Hurt (16 x 16).png::CompressedTexture2D::3662004514246013480::1695339062::1695339337::1::::<><>::
+HurtPet(16x16).png::CompressedTexture2D::2479483812340244244::1695339062::1695339337::1::::<><>::
+HurtPin(16x17).png::CompressedTexture2D::7425808563367803102::1695339062::1695339337::1::::<><>::
+Hurt_(16_x_16).png::CompressedTexture2D::5704633499676888154::1695339062::1695339337::1::::<><>::
+IdlePet(32x16).png::CompressedTexture2D::4679042079840223518::1695339062::1695339337::1::::<><>::
+IdlePin.png::CompressedTexture2D::7771864797185785852::1695339062::1695339337::1::::<><>::
+Idle_(16_x_16)-1.png.png::CompressedTexture2D::6915211261343334006::1695339062::1695339337::1::::<><>::
+Idle_correct.png::CompressedTexture2D::3730981681386776653::1695339062::1695339337::1::::<><>::
+Jumping_(16x16).png::CompressedTexture2D::6824835896238329076::1695339062::1695339337::1::::<><>::
+JumpPet(16x16).png::CompressedTexture2D::5975821087136399060::1695339062::1695339337::1::::<><>::
+JumpPin(16x17).png::CompressedTexture2D::7186208447180379780::1695339062::1695339337::1::::<><>::
+Running_(16_x_16)-1.png.png::CompressedTexture2D::7718894759090509300::1695339062::1695339337::1::::<><>::
+RunPet(16x16).png::CompressedTexture2D::4234097728058768051::1695339062::1695339337::1::::<><>::
+RunPin(96x16).png::CompressedTexture2D::3904713759725388242::1695339062::1695339337::1::::<><>::
+::res://Assets/Enemies/::1695339062
+Attack (44x42).png::CompressedTexture2D::5544508559461178731::1695339062::1695339337::1::::<><>::
+Bullet.png::CompressedTexture2D::7657165986656087717::1695339062::1695339337::1::::<><>::
+Hit (38x24).png::CompressedTexture2D::815896488689252318::1695339062::1695339337::1::::<><>::
+Hit (44x42).png::CompressedTexture2D::5978395747835598729::1695339062::1695339337::1::::<><>::
+Hit.png::CompressedTexture2D::2500853906964547020::1695339062::1695339337::1::::<><>::
+Idle (32x32).png::CompressedTexture2D::5392890539269247992::1695339062::1695339337::1::::<><>::
+Idle (38x24).png::CompressedTexture2D::7460157475294902988::1695339062::1695339337::1::::<><>::
+Idle (44x42).png::CompressedTexture2D::5902886859371824612::1695339062::1695339337::1::::<><>::
+purplehit.png::CompressedTexture2D::7172652886922109889::1695339062::1695339337::1::::<><>::
+purpleidle.png::CompressedTexture2D::5106590034493842002::1695339062::1695339337::1::::<><>::
+purplerun.png::CompressedTexture2D::4536620482835938852::1695339062::1695339337::1::::<><>::
+Run (32x32).png::CompressedTexture2D::8198062371029871311::1695339062::1695339337::1::::<><>::
+Walk (38x24).png::CompressedTexture2D::8187394765176724296::1695339062::1695339337::1::::<><>::
+::res://Assets/Fruits/::1695339062
+Apple.png::CompressedTexture2D::2101863399072849646::1695339062::1695339337::1::::<><>::
+Bananas.png::CompressedTexture2D::4658537725567719908::1695339062::1695339337::1::::<><>::
+Cherries.png::CompressedTexture2D::3492856056783805473::1695339062::1695339336::1::::<><>::
+Collected.png::CompressedTexture2D::5535667027759159630::1695339062::1695339336::1::::<><>::
+Kiwi.png::CompressedTexture2D::8867049431749888726::1695339062::1695339336::1::::<><>::
+Melon.png::CompressedTexture2D::947580737545953587::1695339062::1695339336::1::::<><>::
+Orange.png::CompressedTexture2D::65627139518621069::1695339062::1695339336::1::::<><>::
+Pineapple.png::CompressedTexture2D::7706873368055922870::1695339062::1695339336::1::::<><>::
+Strawberry.png::CompressedTexture2D::3846301138371320523::1695339062::1695339336::1::::<><>::
+::res://Assets/Telas/::1695339062
+b94eca356355f37.png::CompressedTexture2D::9160764353823032738::1695339062::1695339336::1::::<><>::
+Tela_Jogo.png::CompressedTexture2D::5505922208946754722::1695339062::1695339345::1::::<><>::
+::res://Assets/Tralha Assets/::1695339062
+::res://Assets/Tralha Assets/4 - Bushly/::1695339062
+Camouflaged (16 x 16).png::CompressedTexture2D::4185324786785718739::1695339062::1695339336::1::::<><>::
+Facing_Player (16 x 16).png::CompressedTexture2D::2403490771970966289::1695339062::1695339336::1::::<><>::
+Falling (16 x 16).png::CompressedTexture2D::3985632773670278886::1695339062::1695339336::1::::<><>::
+Hurt (16 x 16).png::CompressedTexture2D::6960301380051261436::1695339062::1695339336::1::::<><>::
+Idle (16 x 16).png::CompressedTexture2D::4681305316518023287::1695339062::1695339336::1::::<><>::
+Jumping (16 x 16).png::CompressedTexture2D::4758991238126875132::1695339062::1695339336::1::::<><>::
+Running (16 x 16).png::CompressedTexture2D::5320732243206043237::1695339062::1695339336::1::::<><>::
+::res://Assets/Tralha Assets/Cenário/::1695339062
+Bloco01.png::CompressedTexture2D::643081735797184438::1695339062::1695339336::1::::<><>::
+Bloco02.png::CompressedTexture2D::1918347782165318906::1695339062::1695339336::1::::<><>::
+Bloco03.png::CompressedTexture2D::4229094150474443969::1695339062::1695339336::1::::<><>::
+Bloco04.png::CompressedTexture2D::8823482254627616747::1695339062::1695339336::1::::<><>::
+Bloco05.png::CompressedTexture2D::7754929805557055266::1695339062::1695339336::1::::<><>::
+Bloco06.png::CompressedTexture2D::2970021396254556850::1695339062::1695339336::1::::<><>::
+Galho1.png::CompressedTexture2D::717554218460918287::1695339062::1695339336::1::::<><>::
+Galho2.png::CompressedTexture2D::2563771809356334105::1695339062::1695339336::1::::<><>::
+Galho3.png::CompressedTexture2D::5521861619328799964::1695339062::1695339336::1::::<><>::
+Galho4.png::CompressedTexture2D::6490342192006996118::1695339062::1695339336::1::::<><>::
+Galho5.png::CompressedTexture2D::9069439150289778864::1695339062::1695339336::1::::<><>::
+Galho6.png::CompressedTexture2D::435137852199266133::1695339062::1695339336::1::::<><>::
+Galho7.png::CompressedTexture2D::4936004290445276820::1695339062::1695339336::1::::<><>::
+Galho8.png::CompressedTexture2D::1752966960860082568::1695339062::1695339336::1::::<><>::
+Tronco1.png::CompressedTexture2D::5329476749320249240::1695339062::1695339336::1::::<><>::
+Tronco2.png::CompressedTexture2D::7306460070476671368::1695339062::1695339336::1::::<><>::
+Tronco3.png::CompressedTexture2D::6430111752778691511::1695339062::1695339336::1::::<><>::
+Tronco4.png::CompressedTexture2D::4461659055634274171::1695339062::1695339336::1::::<><>::
+Tronco5.png::CompressedTexture2D::4274597983466434416::1695339062::1695339336::1::::<><>::
+Tronco6.png::CompressedTexture2D::4939566695420171684::1695339062::1695339336::1::::<><>::
+Tronco7.png::CompressedTexture2D::3717282571252760121::1695339062::1695339336::1::::<><>::
+::res://Assets/Tralha Assets/Personagens/::1695339062
+Movimento_01.png::CompressedTexture2D::221975454709450443::1695339062::1695339336::1::::<><>::
+Movimento_02.png::CompressedTexture2D::1552449517881705382::1695339062::1695339336::1::::<><>::
+Movimento_03.png::CompressedTexture2D::3142027704351622874::1695339062::1695339336::1::::<><>::
+Movimento_04.png::CompressedTexture2D::2328083845867936245::1695339062::1695339336::1::::<><>::
+Movimento_05.png::CompressedTexture2D::5260061496823370140::1695339062::1695339336::1::::<><>::
+Movimento_06.png::CompressedTexture2D::5121368613202891798::1695339062::1695339336::1::::<><>::
+Movimento_07.png::CompressedTexture2D::8992347942408084247::1695339062::1695339337::1::::<><>::
+Movimento_08.png::CompressedTexture2D::4545833798554482133::1695339062::1695339337::1::::<><>::
+Movimento_09.png::CompressedTexture2D::2998700379279666804::1695339062::1695339337::1::::<><>::
+Movimento_10.png::CompressedTexture2D::6120996051826818093::1695339062::1695339337::1::::<><>::
+Movimento_11.png::CompressedTexture2D::1682477904138856797::1695339062::1695339337::1::::<><>::
+Personagem_01_-_Completo_8x15.png::CompressedTexture2D::4089772639262549614::1695339062::1695339337::1::::<><>::
+Personagem_01_-_Movimentação.png::CompressedTexture2D::9134939959025807481::1695339062::1695339337::1::::<><>::
+Personagem_01_-_Movimentação_IDLE.png::CompressedTexture2D::6777763318331105286::1695339062::1695339337::1::::<><>::
+Personagem_01_-_Movimentação_IDLE_2.png::CompressedTexture2D::4498674159402624205::1695339062::1695339336::1::::<><>::
+Personagem_01_-_Movimentação_IDLE_3.png::CompressedTexture2D::4453348340490308913::1695339062::1695339336::1::::<><>::
+Personagem_01_-_Movimentação_IDLE_4.png::CompressedTexture2D::1081313128468081034::1695339062::1695339336::1::::<><>::
+::res://Buttons/::1695339062
+appleapple.png::CompressedTexture2D::4128146265534832747::1695339062::1695339336::1::::<><>::
+Banana.png::CompressedTexture2D::5913296103632889968::1695339062::1695339336::1::::<><>::
+Caixa de dialogo.png::CompressedTexture2D::2286167474100011242::1695339062::1695339337::1::::<><>::
+Checkpoint (Flag Idle)(64x64).png::CompressedTexture2D::177402084825155407::1695339062::1695339336::1::::<><>::
+Checkpoint (No Flag).png::CompressedTexture2D::5297710186206291495::1695339062::1695339336::1::::<><>::
+dialog box (2).png::CompressedTexture2D::8385781936506926660::1695339062::1695339336::1::::<><>::
+dialog box.png::CompressedTexture2D::3008420493076388048::1695339062::1695339336::1::::<><>::
+Petala0.png::CompressedTexture2D::165034898804189854::1695339062::1695339336::1::::<><>::
+Petala1.png::CompressedTexture2D::9030554808685136623::1695339062::1695339336::1::::<><>::
+Petala2.png::CompressedTexture2D::1263848661598655820::1695339062::1695339336::1::::<><>::
+Petala3.png::CompressedTexture2D::6139547473355584592::1695339062::1695339336::1::::<><>::
+Petala4.png::CompressedTexture2D::1239640990974982508::1695339062::1695339336::1::::<><>::
+Petala5.png::CompressedTexture2D::6447459114362789079::1695339062::1695339336::1::::<><>::
+::res://Items/::1695339062
+apple.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Assets/Fruits/Apple.png<>res://Assets/Fruits/Collected.png<>res://Scripts/Items.gd
+banana.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Items/apple.tscn<>res://Assets/Fruits/Bananas.png<>res://Assets/Fruits/Collected.png
+bananana.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Scripts/bananana.gd<>res://Items/banana.tscn
+maca.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Items/apple.tscn<>res://Scripts/apple.gd
+::res://Levels/::1695339062
+Backup26-6.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Scenes/Mushroom.tscn<>res://Items/maca.tscn<>res://Prefabs/HUD.tscn<>res://Items/bananana.tscn<>res://Scenes/player.tscn<>res://Scripts/fallzone.gd<>res://Scripts/Reset.gd<>res://Assets/Cenário 2/3 - Cloud_cover_1.png<>res://Assets/Cenário 2/5 - Sky_color.png<>res://Assets/Cenário 2/Terrain (16 x 16).png<>res://Assets/Cenário 2/1 - Foreground_scenery.png<>res://Assets/Cenário 2/Terrain (16x16).png<>res://Assets/Cenário 2/4 - Cloud_cover_2.png<>res://Assets/Cenário 2/2 - Hills.png<>res://Assets/Cenário 2/Tronco/Tronco3.png<>res://Assets/Cenário 2/Tronco/Tronco4.png<>res://Assets/Cenário 2/Tronco/Tronco6.png<>res://Assets/Cenário 2/Tronco/Galho2.png<>res://Assets/Cenário 2/Tronco/Tronco5.png<>res://Assets/Cenário 2/Tronco/Tronco7.png<>res://Assets/Cenário 2/Tronco/Galho3.png<>res://Assets/Cenário 2/Tronco/Tronco2.png<>res://Assets/Cenário 2/Tronco/Galho1.png<>res://Assets/Cenário 2/Tronco/Galho1.2.png<>res://Assets/Cenário 2/Tronco/Galho2.2.png<>res://Assets/Cenário 2/Tronco/Galho1.1.png<>res://Assets/Cenário 2/Tronco/Tronco_1.png<>res://Assets/Cenário 2/Tronco/Galho2.1.png
+Level1.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Scenes/GoalLevel1.tscn<>res://Items/maca.tscn<>res://Scripts/Characterspawner.gd<>res://Scenes/Mushroom.tscn<>res://Assets/Cenário 2/Terrain (16x16).png<>res://Assets/Cenário 2/Terrain (16 x 16).png<>res://Assets/Cenário 2/1 - Foreground_scenery.png<>res://Assets/Cenário 2/Tronco/Galho1.2.png<>res://Assets/Cenário 2/Tronco/Tronco5.png<>res://Assets/Cenário 2/Tronco/Galho1.png<>res://Assets/Cenário 2/Tronco/Tronco6.png<>res://Assets/Cenário 2/Tronco/Galho1.1.png<>res://Assets/Cenário 2/4 - Cloud_cover_2.png<>res://Assets/Cenário 2/2 - Hills.png<>res://Assets/Cenário 2/Tronco/Galho3.png<>res://Assets/Cenário 2/Tronco/Galho2.png<>res://Assets/Cenário 2/Tronco/Tronco4.png<>res://Assets/Cenário 2/Tronco/Tronco7.png<>res://Assets/Cenário 2/Tronco/Galho2.2.png<>res://Assets/Cenário 2/Tronco/Tronco2.png<>res://Assets/Cenário 2/3 - Cloud_cover_1.png<>res://Assets/Cenário 2/Tronco/Galho2.1.png<>res://Assets/Cenário 2/Tronco/Tronco_1.png<>res://Assets/Cenário 2/5 - Sky_color.png<>res://Assets/Cenário 2/Tronco/Tronco3.png<>res://Prefabs/HUDL1.tscn<>res://Scripts/Level1.gd<>res://Scenes/Purple.tscn<>res://Items/bananana.tscn<>res://Scenes/Bee5.tscn<>res://Scenes/Bee6.tscn<>res://Scenes/Bee7.tscn<>res://Assets/Cenário 2/Tilesets/Grassland_entities (16 x 16).png
+Level2.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Prefabs/HUDL2.tscn<>res://Scripts/Characterspawner.gd<>res://Scripts/Level2.gd<>res://Assets/Cenário 2/5 - Sky_color.png<>res://Assets/Cenário 2/Terrain (16x16).png<>res://Assets/Cenário 2/Tilesets/Summer_Terrain (16 x 16).png<>res://Assets/Cenário 2/4 - Cloud_cover_2.png<>res://Assets/Cenário 2/3 - Floating_clouds.png<>res://Assets/Cenário 2/1 - Waters_version_1.png<>res://Assets/Cenário 2/2 - Waters_version_2.png<>res://Assets/Cenário 2/Tronco/Tronco4.png<>res://Assets/Cenário 2/Tronco/Galho2.png<>res://Assets/Cenário 2/Tronco/Tronco5.png<>res://Assets/Cenário 2/Tronco/Tronco3.png<>res://Assets/Cenário 2/Tronco/Tronco2.png<>res://Assets/Cenário 2/Tronco/Tronco7.png<>res://Assets/Cenário 2/Tronco/Galho3.png<>res://Assets/Cenário 2/Tronco/Galho1.png<>res://Assets/Cenário 2/Tronco/Galho1.2.png<>res://Assets/Cenário 2/Tronco/Galho1.1.png<>res://Assets/Cenário 2/Tronco/Galho2.1.png<>res://Assets/Cenário 2/Tronco/Tronco_1.png<>res://Assets/Cenário 2/Tronco/Tronco6.png<>res://Assets/Cenário 2/Tronco/Galho2.2.png<>res://Scenes/GoalLevel2.tscn<>res://Items/maca.tscn<>res://Scenes/Mushroom.tscn<>res://Items/bananana.tscn<>res://Scenes/Caracol.tscn<>res://Scenes/Purple.tscn<>res://Assets/Cenário 2/Tilesets/Summer_entities (16 x 16).png
+Level3.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Prefabs/HUDL3.tscn<>res://Scripts/Characterspawner.gd<>res://Scripts/Level3.gd<>res://Assets/Cenário 2/Terrain (16x16).png<>res://Assets/Cenário 2/Tronco/Tronco4.png<>res://Assets/Cenário 2/Tronco/Tronco5.png<>res://Assets/Cenário 2/Tronco/Tronco3.png<>res://Assets/Cenário 2/Tronco/Tronco2.png<>res://Assets/Cenário 2/Tronco/Tronco7.png<>res://Assets/Cenário 2/5 - Sky_color.png<>res://Assets/Cenário 2/Tronco/Galho3.png<>res://Assets/Cenário 2/Tronco/Tronco_1.png<>res://Assets/Cenário 2/Tronco/Tronco6.png<>res://Assets/Cenário 2/Tronco/Galho1.png<>res://Assets/Cenário 2/Tronco/Galho1.2.png<>res://Assets/Cenário 2/4 - Tree_row_BG_1.png<>res://Assets/Cenário 2/Terrain (16 x 16).png<>res://Assets/Cenário 2/Tronco/Galho2.png<>res://Assets/Cenário 2/Tronco/Galho2.1.png<>res://Assets/Cenário 2/Tronco/Galho2.2.png<>res://Assets/Cenário 2/Tronco/Galho1.1.png<>res://Assets/Cenário 2/2 - Trees.png<>res://Assets/Cenário 2/1 - Leaf_top.png<>res://Scenes/GoalLevel3.tscn<>res://Assets/Cenário 2/3 - Bottom_leaf_piles.png<>res://Items/maca.tscn<>res://Assets/Cenário 2/Tilesets/Autumn_Terrain (16 x 16).png<>res://Scenes/Caracol.tscn<>res://Scenes/Mushroom.tscn<>res://Scenes/Purple.tscn<>res://Items/bananana.tscn
+Level4.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Scripts/Characterspawner.gd<>res://Prefabs/HUDL4.tscn<>res://Scripts/Level4.gd<>res://Assets/Cenário 2/Terrain (16x16).png<>res://Assets/Cenário 2/Tronco/Tronco4.png<>res://Assets/Cenário 2/Tronco/Tronco5.png<>res://Assets/Cenário 2/Tronco/Tronco3.png<>res://Assets/Cenário 2/Tronco/Tronco2.png<>res://Assets/Cenário 2/Tronco/Tronco7.png<>res://Assets/Cenário 2/5 - Tree_row_BG_2.png<>res://Assets/Cenário 2/Tronco/Galho3.png<>res://Assets/Cenário 2/Tronco/Tronco_1.png<>res://Assets/Cenário 2/Tronco/Tronco6.png<>res://Assets/Cenário 2/Tronco/Galho1.png<>res://Assets/Cenário 2/Tronco/Galho1.2.png<>res://Assets/Cenário 2/Terrain (16 x 16).png<>res://Assets/Cenário 2/Tronco/Galho2.png<>res://Assets/Cenário 2/Tronco/Galho2.1.png<>res://Assets/Cenário 2/Tronco/Galho2.2.png<>res://Assets/Cenário 2/Tronco/Galho1.1.png<>res://Assets/Cenário 2/2 - Trees.png<>res://Assets/Cenário 2/4 - Tree_row_BG_1.png<>res://Assets/Cenário 2/1 - Leaf_top.png<>res://Assets/Cenário 2/3 - Bottom_leaf_piles.png<>res://Assets/Cenário 2/6 - Distant_trees.png<>res://Assets/Cenário 2/Tilesets/Autumn_Terrain (16 x 16).png<>res://Scenes/Purple.tscn<>res://Scenes/GoalLevel4.tscn<>res://Scenes/Caracol.tscn<>res://Scenes/Mushroom.tscn<>res://Items/maca.tscn<>res://Items/bananana.tscn
+PilotLevel.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Assets/Cenário 2/Terrain (16x16).png<>res://Assets/Cenário 2/Terrain (16 x 16).png<>res://Assets/Cenário 2/1 - Foreground_scenery.png<>res://Assets/Cenário 2/5 - Sky_color.png<>res://Assets/Cenário 2/4 - Cloud_cover_2.png<>res://Assets/Cenário 2/2 - Hills.png<>res://Assets/Cenário 2/3 - Cloud_cover_1.png<>res://Prefabs/fallzone.tscn<>res://Scenes/Mushroom.tscn<>res://Scripts/Reset.gd<>res://Prefabs/HUD.tscn<>res://Assets/Cenário 2/Tronco/Tronco_1.png<>res://Assets/Cenário 2/Tronco/Tronco4.png<>res://Assets/Cenário 2/Tronco/Tronco5.png<>res://Assets/Cenário 2/Tronco/Tronco3.png<>res://Assets/Cenário 2/Tronco/Tronco2.png<>res://Assets/Cenário 2/Tronco/Tronco7.png<>res://Assets/Cenário 2/Tronco/Galho3.png<>res://Assets/Cenário 2/Tronco/Tronco6.png<>res://Assets/Cenário 2/Tronco/Galho1.png<>res://Assets/Cenário 2/Tronco/Galho1.2.png<>res://Assets/Cenário 2/Tronco/Galho2.2.png<>res://Assets/Cenário 2/Tronco/Galho1.1.png<>res://Assets/Cenário 2/Tronco/Galho2.1.png<>res://Assets/Cenário 2/Tronco/Galho2.png<>res://Items/maca.tscn<>res://Items/bananana.tscn<>res://Scenes/Goal.tscn<>res://Scenes/Bee.tscn<>res://Scenes/Bee2.tscn<>res://Scenes/Bee3.tscn<>res://Scenes/Bee4.tscn<>res://Scripts/Characterspawner.gd
+::res://Prefabs/::1695339062
+fallzone.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Scripts/fallzone.gd
+GameOver.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Assets/PressStart2P.ttf<>res://Assets/Telas/b94eca356355f37.png<>res://Scripts/GameOver.gd<>res://Assets/Character/Hurt_(16_x_16).png
+Guia.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Assets/Telas/Tela_Jogo.png<>res://Assets/PressStart2P.ttf<>res://Buttons/appleapple.png<>res://Buttons/Banana.png<>res://Scripts/Guia.gd
+hitbox.tscn::PackedScene::-1::1695339311::0::1::::<><>::
+HUD.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Buttons/appleapple.png<>res://Buttons/Banana.png<>res://Scripts/score1.gd<>res://Scripts/score2.gd<>res://Scripts/score3.gd<>res://Assets/PressStart2P.ttf<>res://Buttons/Petala0.png<>res://Buttons/Petala3.png<>res://Buttons/Petala5.png<>res://Buttons/Petala2.png<>res://Buttons/Petala4.png<>res://Buttons/Petala1.png<>res://Scripts/ResetPilot.gd
+HUDL1.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Assets/PressStart2P.ttf<>res://Scripts/score1.gd<>res://Scripts/score2.gd<>res://Buttons/Petala3.png<>res://Buttons/Petala0.png<>res://Buttons/Banana.png<>res://Buttons/appleapple.png<>res://Buttons/Petala5.png<>res://Buttons/Petala2.png<>res://Buttons/Petala1.png<>res://Buttons/Petala4.png<>res://Scripts/score3L1.gd<>res://Scripts/ResetL1.gd
+HUDL2.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Assets/PressStart2P.ttf<>res://Scripts/score3L2.gd<>res://Scripts/score1.gd<>res://Scripts/score2.gd<>res://Buttons/Petala0.png<>res://Buttons/Banana.png<>res://Buttons/Petala3.png<>res://Buttons/appleapple.png<>res://Buttons/Petala5.png<>res://Buttons/Petala2.png<>res://Buttons/Petala4.png<>res://Buttons/Petala1.png<>res://Scripts/ResetL2.gd
+HUDL3.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Assets/PressStart2P.ttf<>res://Scripts/score1.gd<>res://Scripts/score2.gd<>res://Scripts/score3L3.gd<>res://Buttons/Petala4.png<>res://Buttons/Petala1.png<>res://Buttons/Petala0.png<>res://Buttons/Petala3.png<>res://Buttons/appleapple.png<>res://Buttons/Banana.png<>res://Buttons/Petala5.png<>res://Buttons/Petala2.png<>res://Scripts/ResetL3.gd
+HUDL4.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Assets/PressStart2P.ttf<>res://Scripts/score1.gd<>res://Scripts/score2.gd<>res://Scripts/score3L4.gd<>res://Buttons/Petala4.png<>res://Buttons/Petala1.png<>res://Buttons/Petala0.png<>res://Buttons/Petala3.png<>res://Buttons/appleapple.png<>res://Buttons/Banana.png<>res://Buttons/Petala5.png<>res://Buttons/Petala2.png<>res://Scripts/ResetL4.gd
+TelaInicial.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Assets/Telas/Tela_Jogo.png<>res://Assets/PressStart2P.ttf<>res://Scripts/TelaInicial.gd<>res://Scripts/startBtn.gd<>res://Scripts/quit.gd<>res://Scripts/options.gd<>res://Scripts/select_character.gd
+::res://Scenes/::1695339062
+Atirador.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Assets/Enemies/Idle (44x42).png<>res://Scripts/Atirador.gd<>res://Assets/Enemies/Attack (44x42).png<>res://Assets/Enemies/Hit (44x42).png
+Bee2.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Buttons/Caixa de dialogo.png<>res://Assets/PressStart2P.ttf<>res://Assets/Character/AbelhaSprite.png<>res://Scripts/Bee.gd
+Bee3.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Buttons/Caixa de dialogo.png<>res://Assets/PressStart2P.ttf<>res://Assets/Character/AbelhaSprite.png<>res://Scripts/Bee.gd
+Bee4.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Buttons/Caixa de dialogo.png<>res://Assets/PressStart2P.ttf<>res://Assets/Character/AbelhaSprite.png<>res://Scripts/Bee.gd
+Bee5.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Assets/PressStart2P.ttf<>res://Scripts/Bee.gd<>res://Assets/Character/AbelhaSprite.png<>res://Buttons/Caixa de dialogo.png
+Bee6.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Assets/PressStart2P.ttf<>res://Scripts/Bee.gd<>res://Assets/Character/AbelhaSprite.png<>res://Buttons/Caixa de dialogo.png
+Bee7.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Assets/PressStart2P.ttf<>res://Scripts/Bee.gd<>res://Assets/Character/AbelhaSprite.png<>res://Buttons/Caixa de dialogo.png
+Bee.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Assets/Character/AbelhaSprite.png<>res://Assets/PressStart2P.ttf<>res://Scripts/Bee.gd<>res://Buttons/Caixa de dialogo.png
+Caracol.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Prefabs/hitbox.tscn<>res://Scripts/Mushroom.gd<>res://Assets/Enemies/Run (32x32).png<>res://Assets/Enemies/Hit (38x24).png<>res://Assets/Enemies/Walk (38x24).png<>res://Assets/Enemies/Idle (38x24).png
+Goal.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Buttons/Checkpoint (Flag Idle)(64x64).png<>res://Buttons/Checkpoint (No Flag).png<>res://Scripts/goal.gd
+GoalLevel1.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Scripts/goalLevel1.gd<>res://Buttons/Checkpoint (Flag Idle)(64x64).png<>res://Buttons/Checkpoint (No Flag).png
+GoalLevel2.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Scripts/goalLevel2.gd<>res://Buttons/Checkpoint (Flag Idle)(64x64).png<>res://Buttons/Checkpoint (No Flag).png
+GoalLevel3.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Scripts/goalLevel3.gd<>res://Buttons/Checkpoint (Flag Idle)(64x64).png<>res://Buttons/Checkpoint (No Flag).png
+GoalLevel4.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Scripts/goalLevel4.gd<>res://Buttons/Checkpoint (Flag Idle)(64x64).png<>res://Buttons/Checkpoint (No Flag).png
+Mushroom.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Assets/Enemies/Run (32x32).png<>res://Assets/Enemies/Idle (32x32).png<>res://Assets/Enemies/Hit.png<>res://Scripts/Mushroom.gd<>res://Prefabs/hitbox.tscn
+PilotLevel.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Assets/Personagens/Personagem_01_-_Movimentação_IDLE_3.png
+player2.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Scripts/Player.gd<>res://Assets/Character/HurtPet(16x16).png<>res://Assets/Character/RunPet(16x16).png<>res://Assets/Character/Hurt_(16_x_16).png<>res://Assets/Character/IdlePet(32x16).png<>res://Assets/Character/JumpPet(16x16).png
+player3.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Scripts/Player.gd<>res://Assets/Character/JumpPin(16x17).png<>res://Assets/Character/RunPin(96x16).png<>res://Assets/Character/Hurt_(16_x_16).png<>res://Assets/Character/IdlePin.png<>res://Assets/Character/HurtPin(16x17).png
+player.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Scripts/Player.gd<>res://Assets/Character/Hurt_(16_x_16).png<>res://Assets/Character/Jumping_(16x16).png<>res://Assets/Character/Running_(16_x_16)-1.png.png<>res://Assets/Character/Idle_correct.png
+Purple.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Prefabs/hitbox.tscn<>res://Scripts/Purple2.gd<>res://Assets/Enemies/Run (32x32).png<>res://Assets/Enemies/purpleidle.png<>res://Assets/Enemies/purplehit.png<>res://Assets/Enemies/purplerun.png
+Seed.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Assets/Enemies/Bullet.png<>res://Scripts/Seed.gd
+SelectCharacter.tscn::PackedScene::-1::1695339311::0::1::::<><>::res://Assets/PressStart2P.ttf<>res://Assets/Character/Jumping_(16x16).png<>res://Assets/Character/JumpPin(16x17).png<>res://Assets/Telas/Tela_Jogo.png<>res://Assets/Character/JumpPet(16x16).png<>res://Scripts/SelectCharacter.gd
+::res://Scripts/::1695339062
+apple.gd::GDScript::-1::1695339311::0::1::::<>Area2D<>::
+Atirador.gd::GDScript::-1::1695339311::0::1::::<>CharacterBody2D<>::
+bananana.gd::GDScript::-1::1695339311::0::1::::<>Area2D<>::
+Bee.gd::GDScript::-1::1695339311::0::1::::<>CharacterBody2D<>::
+Characterspawner.gd::GDScript::-1::1695339311::0::1::::<>Node2D<>::
+fallzone.gd::GDScript::-1::1695339311::0::1::::<>Area2D<>::
+GameOver.gd::GDScript::-1::1695339311::0::1::::<>CanvasLayer<>::
+Global.gd::GDScript::-1::1695339311::0::1::::<>Node<>::
+goal.gd::GDScript::-1::1695339311::0::1::::<>Area2D<>::
+goalLevel1.gd::GDScript::-1::1695339311::0::1::::<>Area2D<>::
+goalLevel2.gd::GDScript::-1::1695339311::0::1::::<>Area2D<>::
+goalLevel3.gd::GDScript::-1::1695339311::0::1::::<>Area2D<>::
+goalLevel4.gd::GDScript::-1::1695339311::0::1::::<>Area2D<>::
+Guia.gd::GDScript::-1::1695339311::0::1::::<>Control<>::
+Items.gd::GDScript::-1::1695339311::0::1::::<>Area2D<>::
+Level1.gd::GDScript::-1::1695339311::0::1::::<>Node<>::
+Level2.gd::GDScript::-1::1695339311::0::1::::<>Node<>::
+Level3.gd::GDScript::-1::1695339311::0::1::::<>Node<>::
+Level4.gd::GDScript::-1::1695339311::0::1::::<>Node<>::
+Mushroom.gd::GDScript::-1::1695339311::0::1::::<>CharacterBody2D<>::
+options.gd::GDScript::-1::1695339311::0::1::::<>Button<>::
+Player.gd::GDScript::-1::1695339311::0::1::::<>CharacterBody2D<>::
+Purple2.gd::GDScript::-1::1695339311::0::1::::<>CharacterBody2D<>::
+Purple.gd::GDScript::-1::1695339311::0::1::::<>CharacterBody2D<>::
+quit.gd::GDScript::-1::1695339311::0::1::::<>Button<>::
+Reset.gd::GDScript::-1::1695339311::0::1::::<>Node<>::
+ResetL1.gd::GDScript::-1::1695339311::0::1::::<>Node2D<>::
+ResetL2.gd::GDScript::-1::1695339311::0::1::::<>Node2D<>::
+ResetL3.gd::GDScript::-1::1695339311::0::1::::<>Node2D<>::
+ResetL4.gd::GDScript::-1::1695339311::0::1::::<>Node2D<>::
+ResetPilot.gd::GDScript::-1::1695339311::0::1::::<>Node2D<>::
+score1.gd::GDScript::-1::1695339311::0::1::::<>Label<>::
+score2.gd::GDScript::-1::1695339311::0::1::::<>Label<>::
+score3.gd::GDScript::-1::1695339311::0::1::::<>Label<>::
+score3L1.gd::GDScript::-1::1695339311::0::1::::<>Label<>::
+score3L2.gd::GDScript::-1::1695339311::0::1::::<>Label<>::
+score3L3.gd::GDScript::-1::1695339311::0::1::::<>Label<>::
+score3L4.gd::GDScript::-1::1695339311::0::1::::<>Label<>::
+Seed.gd::GDScript::-1::1695339311::0::1::::<>Area2D<>::
+SelectCharacter.gd::GDScript::-1::1695339311::0::1::::<>Control<>::
+select_character.gd::GDScript::-1::1695339311::0::1::::<>Button<>::
+startBtn.gd::GDScript::-1::1695339311::0::1::::<>Button<>::
+TelaInicial.gd::GDScript::-1::1695339311::0::1::::<>Control<>::

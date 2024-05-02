@@ -1,6 +1,6 @@
-extends KinematicBody2D
+extends CharacterBody2D
 
-export var speed = 64
+@export var speed = 64
 #export var health = 7
 var motion = Vector2.ZERO
 var gravity = 1200
@@ -17,7 +17,9 @@ func _physics_process(delta: float) -> void:
 		$texture.flip_h = false 
 	
 	_set_animation()
-	motion = move_and_slide(motion)
+	set_velocity(motion)
+	move_and_slide()
+	motion = velocity
 	
 		
 func _on_anim_animation_finished(anim_name: String) -> void:
@@ -45,7 +47,7 @@ func _on_hitbox_body_entered(body: Node)-> void:
 	hitted = true
 	body.velocity.y = body.jump_force 
 	#health -= 1
-	yield(get_tree().create_timer(0.2), "timeout")
+	await get_tree().create_timer(0.2).timeout
 	hitted = false 
 	
 	#if health == 0:

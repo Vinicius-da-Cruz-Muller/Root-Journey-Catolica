@@ -1,0 +1,7 @@
+res://default_env.tres
+res://Prefabs/TelaInicial.tscn
+res://Levels/PilotLevel.tscn
+res://Scripts/score1.gd
+res://Levels/Level1.tscn
+res://Scripts/score2.gd
+res://Levels/Backup26-6.tscn

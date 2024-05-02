@@ -2,4 +2,4 @@ extends Label
 
 
 func _process(delta: float) -> void:
-	text = String(Global.banana)
+#	text = String(Global.banana)
